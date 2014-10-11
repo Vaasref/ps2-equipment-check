@@ -2,66 +2,66 @@
 	"universal": {
 		"medicalKit": {
 			"name": "Medical Kit",
-			"skillLine": 4217,
+			"skillLine": 4213,
 			"skills": [
-				4615,
-				4616,
-				4621,
-				4622
+				4601,
+				4602,
+				4607,
+				4608
 			]
 		},
 		"restorationKit": {
 			"name": "Restoration Kit",
-			"skillLine": 4218,
+			"skillLine": 4214,
 			"skills": [
-				4617,
-				4618,
-				4623,
-				4624
+				4603,
+				4604,
+				4609,
+				4610
 			]
 		}
 	},
 	"heavyAssault": {
 		"concussionGrenade": {
 			"name": "Concussion Grenade",
-			"skillLine": 931,
+			"skillLine": 1041,
 			"skills": [
-				3680
+				4088
 			]
 		},
 		"antiVehicleGrenade": {
 			"name": "Anti Vehicle Grenade",
-			"skillLine": 932,
+			"skillLine": 1042,
 			"skills": [
-				3683
+				4091
 			]
 		},
 		"c4": {
 			"name": "C-4 (explosives)",
-			"skillLine": 933,
+			"skillLine": 1043,
 			"skills": [
-				3686,
-				3687
+				4094,
+				4095
 			]
 		},
 		"flakArmor": {
 			"name": "Flak Armor",
-			"skillLine": 934,
+			"skillLine": 977,
 			"skills": [
-				3688,
-				3689,
-				3690,
-				3691,
-				3692
+				3863,
+				3864,
+				3865,
+				3866,
+				3867
 			]
 		},
 		"grenadeBandolier": {
 			"name": "Grenade Bandolier",
-			"skillLine": 1435,
+			"skillLine": 1429,
 			"skills": [
-				1234,
-				1235,
-				22393
+				1220,
+				1221,
+				22386
 			]
 		},
 		"nanoweaveArmor": {
@@ -90,16 +90,16 @@
 	"lightAssault": {
 		"smokeGrenade": {
 			"name": "Smoke Grenade",
-			"skillLine": 971,
+			"skillLine": 1026,
 			"skills": [
-				3840
+				4048
 			]
 		},
 		"flashGrenade": {
 			"name": "Flash Grenade",
-			"skillLine": 972,
+			"skillLine": 1027,
 			"skills": [
-				3843
+				4051
 			]
 		},
 		"nanoweaveArmor": {
@@ -126,33 +126,33 @@
 		},
 		"c4": {
 			"name": "C-4 (explosives)",
-			"skillLine": 973,
+			"skillLine": 1028,
 			"skills": [
-				3846,
-				3847
+				4054,
+				4055
 			]
 		},
 		"jumpJets": {
 			"name": "Jump Jets",
-			"skillLine": 978,
+			"skillLine": 466,
 			"skills": [
 				"xx",
-				3869,
-				3870,
-				3871,
-				3872,
-				5874
+				4536,
+				2130,
+				2131,
+				2132,
+				5875
 			]
 		},
 		"drifterJumpJets": {
 			"name": "Drifter Jump Jets",
-			"skillLine": 980,
+			"skillLine": 464,
 			"skills": [
-				3878,
-				3879,
-				3880,
-				3881,
-				3882
+				2119,
+				2120,
+				2121,
+				2122,
+				2123
 			]
 		},
 		"grenadeBandolier": {
@@ -178,9 +178,17 @@
 	"engineer": {
 		"stickyGrenade": {
 			"name": "Sticky Grenade",
-			"skillLine": 956,
+			"skillLine": 1010,
 			"skills": [
-				3774
+				4000
+			]
+		},
+		"c4": {
+			"name": "C-4 (explosives)",
+			"skillLine": 1012,
+			"skills": [
+				4006,
+				4009
 			]
 		},
 		"flakArmor": {
@@ -207,69 +215,80 @@
 		},
 		"nanoArmorKit": {
 			"name": "Nano-Armor Kit",
-			"skillLine": 969,
+			"skillLine": 513,
 			"skills": [
 				"xx",
-				3830,
-				3831,
-				3832,
-				3833,
-				3834
+				2973,
+				2974,
+				2975,
+				2976,
+				2977
 			]
 		},
-		"claymoreMine": {
-			"name": "Claymore Mine",
-			"skillLine": 959,
+		"proximityMine": {
+			"name": "Proximity Mine",
+			"skillLine": 1013,
 			"skills": [
-				3784,
-				3785
+				4010,
+				4011
 			]
 		},
 		"tankMine": {
 			"name": "Tank Mine",
-			"skillLine": 960,
+			"skillLine": 1014,
 			"skills": [
-				3786,
-				3787
+				4014,
+				4013
 			]
 		},
 		"avManaTurret": {
 			"name": "Anti-Vehicle MANA Turret",
-			"skillLine": 965,
+			"skillLine": 481,
 			"skills": [
-				3810,
-				3811,
-				3812,
-				3813,
-				3814
+				2204,
+				2205,
+				2206,
+				2207,
+				2208
+			]
+		},
+		"aiManaTurret": {
+			"name": "Anti-Infantry MANA Turret",
+			"skillLine": 477,
+			"skills": [
+				2184,
+				2185,
+				2186,
+				2187,
+				2188
 			]
 		},
 		"ammunitionPackage": {
 			"name": "Ammunition Package",
-			"skillLine": 2052,
+			"skillLine": 2053,
 			"skills": [
 				"xx",
-				2998,
-				2999,
-				3000,
-				3001,
-				3002
+				3003,
+				3004,
+				3005,
+				3006,
+				3007
 			]
 		}
 	},
 	"medic": {
 		"naniteHealingGrenade": {
 			"name": "Nanite Healing Grenade",
-			"skillLine": 916,
+			"skillLine": 1035,
 			"skills": [
-				3608
+				4072
 			]
 		},
 		"naniteReviveGrenade": {
 			"name": "Nanite Revive Grenade",
-			"skillLine": 917,
+			"skillLine": 1036,
 			"skills": [
-				3611
+				4075
 			]
 		},
 		"c4": {
@@ -282,13 +301,13 @@
 		},
 		"regenerationField": {
 			"name": "Regeneration Field",
-			"skillLine": 930,
+			"skillLine": 510,
 			"skills": [
-				3670,
-				3671,
-				3672,
-				3673,
-				3674
+				2292,
+				2293,
+				2294,
+				2295,
+				2296
 			]
 		},
 		"nanoweaveArmor": {
@@ -304,35 +323,35 @@
 		},
 		"nanoRegenDevice": {
 			"name": "Nano-Regen Device",
-			"skillLine": 924,
+			"skillLine": 475,
 			"skills": [
 				"xx",
-				3635,
-				3636,
-				3637,
-				3638,
-				3639
+				2174,
+				2175,
+				2176,
+				2177,
+				2178
 			]
 		},
 		"medicalApplicator": {
 			"name": "Medical Applicator",
-			"skillLine": 929,
+			"skillLine": 509,
 			"skills": [
 				"xx",
-				3660,
-				3661,
-				3662,
-				3663,
-				3664
+				2273,
+				2274,
+				2275,
+				2276,
+				2277
 			]
 		},
 		"grenadeBandolier": {
 			"name": "Grenade Bandolier",
-			"skillLine": 1433,
+			"skillLine": 1438,
 			"skills": [
-				1230,
-				1231,
-				22391
+				1240,
+				1241,
+				22396
 			]
 		},
 		"flakArmor": {
@@ -350,28 +369,28 @@
 	"infiltrator": {
 		"advancedEquipmentTerminalHacking": {
 			"name": "Advanced Equipment Terminal Hacking",
-			"skillLine": 46,
+			"skillLine": 1147,
 			"skills": [
-				156,
-				157,
-				158,
-				159,
-				160
+				4476,
+				4477,
+				4478,
+				4479,
+				4480
 			]
 		},
 		"empGrenade": {
 			"name": "EMP Grenade",
-			"skillLine": 47,
+			"skillLine": 1023,
 			"skills": [
-				161
+				4040
 			]
 		},
-		"claymoreMine": {
-			"name": "Claymore Mine",
-			"skillLine": 49,
+		"proximityMine": {
+			"name": "Proximity Mine",
+			"skillLine": 1025,
 			"skills": [
-				167,
-				168
+				4046,
+				4047
 			]
 		},
 		"grenadeBandolier": {
@@ -385,9 +404,9 @@
 		},
 		"decoyGrenade": {
 			"name": "Decoy Grenade",
-			"skillLine": 5598,
+			"skillLine": 5599,
 			"skills": [
-				5909
+				5910
 			]
 		},
 		"nanoweaveArmor": {
@@ -403,25 +422,25 @@
 		},
 		"reconDetectDevice": {
 			"name": "Recon Detect Device",
-			"skillLine": 64,
+			"skillLine": 1165,
 			"skills": [
-				16445,
-				229,
-				230,
-				231,
-				232,
-				233
+				16447,
+				3215,
+				3216,
+				3217,
+				3218,
+				3219
 			]
 		},
 		"motionSpotter": {
 			"name": "Motion Spotter",
-			"skillLine": 16626,
+			"skillLine": 16627,
 			"skills": [
-				22280,
-				22281,
-				22282,
-				22283,
-				22284
+				22285,
+				22286,
+				22287,
+				22288,
+				22289
 			]
 		},
 		"flakArmor": {
@@ -447,37 +466,60 @@
 		}
 	},
 	"max": {
-		"lockdown": {
-			"name": "Lockdown",
-			"skillLine": 991,
+		"charge": {
+			"name": "Charge",
+			"skillLine": 984,
 			"skills": [
-				3933,
-				3934,
-				3935,
-				3936,
-				3937
+				4552,
+				3898,
+				3899,
+				3900,
+				3901,
+				3902
+			]
+		},
+		"ammoStorageCanister": {
+			"name": "Ammo Storage Canister",
+			"skillLine": 6263,
+			"skills": [
+				6322,
+				6323,
+				6324,
+				6325,
+				6326
+			]
+		},
+		"zealot": {
+			"name": "Zealot",
+			"skillLine": 16736,
+			"skills": [
+				22507,
+				22508,
+				22509,
+				22510,
+				22511
 			]
 		},
 		"kineticArmor": {
 			"name": "Kinetic Armor",
-			"skillLine": 992,
+			"skillLine": 4203,
 			"skills": [
-				3938,
-				3939,
-				3940,
-				3941,
-				3942
+				3510,
+				3511,
+				3512,
+				3513,
+				3514
 			]
 		},
 		"flakArmor": {
 			"name": "MAX FLAK Armor",
-			"skillLine": 6259,
+			"skillLine": 6260,
 			"skills": [
-				6302,
-				6303,
-				6304,
-				6305,
-				6306
+				6307,
+				6308,
+				6309,
+				6310,
+				6311
 			]
 		}
 	},
@@ -492,6 +534,16 @@
 				672,
 				673,
 				674
+			]
+		},
+		"deploymentShield": {
+			"name": "Deployment Shield",
+			"skillLine": 4228,
+			"skills": [
+				8973,
+				8974,
+				8975,
+				8976
 			]
 		},
 		"vehicleAmmoDispenser": {
@@ -516,12 +568,12 @@
 		},
 		"mineGuard": {
 			"name": "Mine Guard",
-			"skillLine": 2044,
+			"skillLine": 2001,
 			"skills": [
-				"xx",
-				7450,
-				7451,
-				7452
+				2930,
+				7444,
+				7445,
+				7446
 			]
 		},
 		"vehicleStealth": {
@@ -536,9 +588,9 @@
 		},
 		"advancedMobileStation": {
 			"name": "Sunderer Advanced Mobile Station (S-AMS)",
-			"skillLine": 4224,
+			"skillLine": 2039,
 			"skills": [
-				5871
+				5833
 			]
 		},
 		"blockadeArmor": {
@@ -551,6 +603,16 @@
 				7931
 			]
 		},
+		"fireSuppression": {
+			"name": "Fire Suppression System",
+			"skillLine": 225,
+			"skills": [
+				6567,
+				6568,
+				6569,
+				6570
+			]
+		},
 		"rivalCombatChassis": {
 			"name": "Rival Combat Chassis",
 			"skillLine": 1171,
@@ -561,15 +623,33 @@
 			]
 		}
 	},
-	"prowler": {
-		"anchoredMode": {
-			"name": "Anchored Mode",
-			"skillLine": 186,
+	"magrider": {
+		"rivalCombatChassis": {
+			"name": "Rival Combat Chassis",
+			"skillLine": 1175,
 			"skills": [
-				837,
-				838,
-				839,
-				840
+				11345,
+				11346,
+				11347
+			]
+		},
+		"magBurner": {
+			"name": "MagBurner",
+			"skillLine": 25,
+			"skills": [
+				76,
+				91,
+				92,
+				841
+			]
+		},
+		"racerHighSpeedChassis": {
+			"name": "Racer High Speed Chassis",
+			"skillLine": 1176,
+			"skills": [
+				11348,
+				11349,
+				11350
 			]
 		},
 		"mineGuard": {
@@ -618,7 +698,19 @@
 				8179
 			]
 		}
-	},
+	},	
+	"flash": {
+		"radar": {
+			"name": "Scout Radar",
+			"skillLine": 2031,
+			"skills": [
+				2960,
+				9048,
+				9049,
+				9050
+			]
+		}
+	},	
 	"harasser": {
 		"fireSuppressionSystem": {
 			"name": "Fire Suppression System",
@@ -680,6 +772,101 @@
 			]
 		}
 	},
+	"scythe": {
+		"fireSuppression": {
+			"name": "Fire Suppression",
+			"skillLine": 545,
+			"skills": [
+				6587,
+				6588,
+				6589,
+				6590
+			]
+		},
+		"nanite": {
+			"name": "Nanite Auto Repair System",
+			"skillLine": 188,
+			"skills": [
+				852,
+				853,
+				854,
+				855,
+				856
+			]
+		},
+		"decoyFlares": {
+			"name": "Decoy Flares",
+			"skillLine": 2024,
+			"skills": [
+				2953,
+				5896,
+				5897,
+				5898
+			]
+		},
+		"compositeArmor": {
+			"name": "Composite Armor",
+			"skillLine": 2021,
+			"skills": [
+				2950,
+				6554,
+				6555,
+				6556
+			]
+		}				
+	},
+	"galaxy": {
+		"vehicleStealth": {
+			"name": "Vehicle Stealth",
+			"skillLine": 523,
+			"skills": [
+				2319,
+				2320,
+				2321,
+				2322
+			]
+		},
+		"decoyFlares": {
+			"name": "Decoy Flares",
+			"skillLine": 2024,
+			"skills": [
+				2953,
+				5896,
+				5897,
+				5898
+			]
+		},
+		"speed": {
+			"name": "Racer High Speed Airframe",
+			"skillLine": 1195,
+			"skills": [
+				11405,
+				11406,
+				11407
+			]
+		},
+		"fireSuppression": {
+			"name": "Fire Suppression",
+			"skillLine": 549,
+			"skills": [
+				6603,
+				6604,
+				6605,
+				6606
+			]
+		},
+		"nanite": {
+			"name": "Nanite Auto Repair System",
+			"skillLine": 224,
+			"skills": [
+				1046,
+				1047,
+				1048,
+				1049,
+				1050
+			]
+		}
+	},
 	"liberator": {
 		"acquisitionTimer": {
 			"name": "Acquisition Timer",
@@ -707,59 +894,81 @@
 				987,
 				988
 			]
+		},
+		"lf100Afterburner": {
+			"name": "LF-100 Afterburner",
+			"skillLine": 222,
+			"skills": [
+				1031,
+				1032,
+				1033,
+				1034,
+				1035
+			]
+		},
+		"precisionBomberAirframe": {
+			"name": "Precision Bomber Airframe",
+			"skillLine": 1190,
+			"skills": [
+				11390,
+				11391,
+				11392
+			]
 		}
+
 	},
 	"squadLeader": {
 		"priorityDeployment": {
 			"name": "Spawn Beacon",
-			"skillLine": 1003,
+			"skillLine": 993,
 			"skills": [
-				3983,
-				3984,
-				3985,
-				3986
+				3947,
+				3955,
+				3956,
+				3957,
+				3958
 			]
 		},
 		"requestReinforcements": {
 			"name": "Request Reinforcements",
-			"skillLine": 1004,
+			"skillLine": 994,
 			"skills": [
-				3974
+				3946
 			]
 		},
 		"rallyPointGreen": {
 			"name": "Rally Point - Green",
-			"skillLine": 1005,
+			"skillLine": 995,
 			"skills": [
-				3977
+				3949
 			]
 		},
 		"rallyPointOrange": {
 			"name": "Rally Point - Orange",
-			"skillLine": 1006,
+			"skillLine": 996,
 			"skills": [
-				3976
+				3948
 			]
 		},
 		"rallyPointPurple": {
 			"name": "Rally Point - Purple",
-			"skillLine": 1007,
+			"skillLine": 997,
 			"skills": [
-				3978
+				3950
 			]
 		},
 		"rallyPointYellow": {
 			"name": "Rally Point - Yellow",
-			"skillLine": 16124,
+			"skillLine": 16132,
 			"skills": [
-				3979
+				3951
 			]
 		},
 		"commandCommChannel": {
 			"name": "Command Comm. Channel",
-			"skillLine": 16125,
+			"skillLine": 16133,
 			"skills": [
-				3981
+				3953
 			]
 		}
 	}

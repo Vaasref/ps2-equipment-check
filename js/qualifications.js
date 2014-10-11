@@ -2,50 +2,11 @@
 
 function Qualifications(skills, items) {
 	var requirements = {
-			'soldier': {
+			'membre': {
 				meta: {
 					passPercentage: 100
 				},
-				classes: {
-					'Heavy Assault': {
-						certifications: [
-							{ skill: skills.heavyAssault.flakArmor, level: 3 }
-						],
-						equipment: []
-					},
-					'Light Assault': {
-						certifications: [
-							{ skill: skills.lightAssault.flakArmor, level: 3 }
-						],
-						equipment: []
-					},
-					'Engineer': {
-						certifications: [
-							{ skill: skills.engineer.flakArmor, level: 3 },
-							{ skill: skills.engineer.nanoArmorKit, level: 4 },
-							{ skill: skills.engineer.tankMine, level: 1 }
-						],
-						equipment: []
-					},
-					'Medic': {
-						certifications: [
-							{ skill: skills.medic.flakArmor, level: 3 },
-							{ skill: skills.medic.medicalApplicator, level: 4 }
-						],
-						equipment: []
-					},
-					'Infiltrator': {
-						certifications: [
-							{ skill: skills.infiltrator.flakArmor, level: 3 }
-						],
-						equipment: []
-					},
-					'Sunderer': {
-						certifications: [
-							{ skill: skills.sunderer.advancedMobileStation, level: 1 }
-						],
-						equipment: []
-					},
+				classes: {	
 					'Squad Leader': {
 						certifications: [
 							{ skill: skills.squadLeader.priorityDeployment, level: 0 }
@@ -58,84 +19,44 @@ function Qualifications(skills, items) {
 				meta: {
 					passPercentage: 100
 				},
-				classes: {
-					'Heavy Assault': {
+				classes: {	
+					'Une arme short range<br />Une arme mid range<br /> Viseur HS/NV scope sur toutes les armes<br />Du C-4 et des mines': {
 						certifications: [
-							{ skill: skills.heavyAssault.resistShield, level: 1 },
-							{ skill: skills.heavyAssault.antiVehicleGrenade, level: 1 },
-							{ skill: skills.universal.medicalKit, level: 1 }
-						],
-						equipment: []
-					},
-					'Light Assault': {
-						certifications: [
-							{ skill: skills.lightAssault.c4, level: 2 },
-							{ skill: skills.lightAssault.drifterJumpJets, level: 2 }
-						],
-						equipment: []
-					},
-					'Engineer': {
-						certifications: [
-							{ skill: skills.engineer.nanoArmorKit, level: 6 },
-							{ skill: skills.engineer.claymoreMine, level: 2 },
-							{ skill: skills.engineer.tankMine, level: 2 },
-							{ skill: skills.engineer.ammunitionPackage, level: 3 },
-							{ skill: skills.engineer.stickyGrenade, level: 1 }
+							{ skill: skills.universal.medicalKit, level: 2 }
 						],
 						equipment: [
-							items.weapon.trac5s,
-							items.engineer.avManaTurret
+						items.weapon.hunter,
+						items.weapon.hunterAttachments.detectBolt
 						]
-					},
-					'Medic': {
-						certifications: [
-							{ skill: skills.medic.medicalApplicator, level: 6 },
-							{ skill: skills.medic.nanoRegenDevice, level: 6 }
-						],
-						equipment: []
-					},
-					'Infiltrator': {
-						certifications: [
-							{ skill: skills.infiltrator.advancedEquipmentTerminalHacking, level: 3 }
-						],
-						equipment: []
-					},
-					'Sunderer': {
-						certifications: [
-							{ skill: skills.sunderer.vehicleAmmoDispenser, level: 1 },
-							{ skill: skills.sunderer.blockadeArmor, level: 3 },
-							{ skill: skills.sunderer.gateShieldDiffuser, level: 2 }
-						],
-						equipment: []
-					},
-					'Squad Leader': {
-						certifications: [
-							{ skill: skills.squadLeader.priorityDeployment, level: 2 }
-						],
-						equipment: []
 					}
 				}
-			},
+			},			
 			'medic': {
 				meta: {
 					passPercentage: 100
 				},
 				classes: {
-					'Loadout: Offensive Medic': {
+					'Indispensable': {
 						certifications: [
-							{ skill: skills.medic.grenadeBandolier, level: 2 },
+							{ skill: skills.medic.medicalApplicator, level: 6 },
+							{ skill: skills.medic.nanoRegenDevice, level: 5 },
 							{ skill: skills.medic.naniteReviveGrenade, level: 1 },
-							{ skill: skills.medic.nanoRegenDevice, level: 6 },
-							{ skill: skills.universal.medicalKit, level: 3 }
+							{ skill: skills.medic.naniteHealingGrenade, level: 1 },							
+							{ skill: skills.medic.grenadeBandolier, level: 2 },
+							{ skill: skills.medic.nanoweaveArmor, level: 1 }						
 						],
 						equipment: []
-					},
-					'Loadout: Defensive Medic': {
+					}
+				}
+			},
+			'rhino': {
+				meta: {
+					passPercentage: 100
+				},
+				classes: {
+					'Ingenieur': {
 						certifications: [
-							{ skill: skills.medic.flakArmor, level: 4 },
-							{ skill: skills.medic.naniteReviveGrenade, level: 1 },
-							{ skill: skills.medic.regenerationField, level: 5 },
-							{ skill: skills.universal.medicalKit, level: 3 }
+							{ skill: skills.engineer.nanoArmorKit, level: 6 }						
 						],
 						equipment: []
 					}
@@ -146,24 +67,15 @@ function Qualifications(skills, items) {
 					passPercentage: 100
 				},
 				classes: {
-					'Loadout: Anti-Infantry MANA Turret': {
+					'Indispensable': {
 						certifications: [
-							{ skill: skills.engineer.flakArmor, level: 4 },
-							{ skill: skills.engineer.claymoreMine, level: 2 }
+							{ skill: skills.engineer.nanoArmorKit, level: 5 },
+							{ skill: skills.engineer.proximityMine, level: 1 },
+							{ skill: skills.engineer.tankMine, level: 2 }
 						],
 						equipment: [
-							items.weapon.trac5s
-						]
-					},
-					'Loadout: Anti-Vehicle MANA Turret': {
-						certifications: [
-							{ skill: skills.engineer.flakArmor, level: 4 },
-							{ skill: skills.engineer.tankMine, level: 2 },
-							{ skill: skills.engineer.avManaTurret, level: 1 }
-						],
-						equipment: [
-							items.weapon.trac5s,
-							items.engineer.avManaTurret
+							items.weapon.solsticesf,
+							items.weapon.solsticesfAttachments.smoke
 						]
 					}
 				}
@@ -173,21 +85,16 @@ function Qualifications(skills, items) {
 					passPercentage: 100
 				},
 				classes: {
-					'Loadout: Bounty Hunter': {
+					'Indispensable': {
 						certifications: [
-							{ skill: skills.lightAssault.flakArmor, level: 4 },
-							{ skill: skills.lightAssault.jumpJets, level: 6 },
-							{ skill: skills.lightAssault.flashGrenade, level: 1 }
-						],
-						equipment: []
-					},
-					'Loadout: Death From Above': {
-						certifications: [
-							{ skill: skills.lightAssault.grenadeBandolier, level: 2 },
 							{ skill: skills.lightAssault.drifterJumpJets, level: 5 },
-							{ skill: skills.lightAssault.smokeGrenade, level: 1 }
+							{ skill: skills.lightAssault.jumpJets, level: 4 },
+							{ skill: skills.lightAssault.c4, level: 2 }
 						],
-						equipment: []
+						equipment: [
+						items.weapon.solsticesf,
+						items.weapon.solsticesfAttachments.smoke
+						]
 					}
 				}
 			},
@@ -196,29 +103,14 @@ function Qualifications(skills, items) {
 					passPercentage: 100
 				},
 				classes: {
-					'Loadout: Close Quarters': {
+					'Indispensable': {
 						certifications: [
-							{ skill: skills.infiltrator.flakArmor, level: 4 },
-							{ skill: skills.infiltrator.grenadeBandolier, level: 2 },
-							{ skill: skills.infiltrator.reconDetectDevice, level: 6 },
-							{ skill: skills.infiltrator.claymoreMine, level: 2 },
-							{ skill: skills.infiltrator.empGrenade, level: 1 }
+							{ skill: skills.infiltrator.reconDetectDevice, level: 4 },
+							{ skill: skills.infiltrator.proximityMine, level: 2 },
+							{ skill: skills.infiltrator.empGrenade, level: 1 },
+							{ skill: skills.infiltrator.motionSpotter, level: 3 }
 						],
-						equipment: [
-							items.weapon.ns7pdw
-						]
-					},
-					'Loadout: Assassin': {
-						certifications: [
-							{ skill: skills.infiltrator.ammunitionBelt, level: 3 },
-							{ skill: skills.infiltrator.motionSpotter, level: 5 },
-							{ skill: skills.infiltrator.claymoreMine, level: 2 },
-							{ skill: skills.infiltrator.decoyGrenade, level: 1 },
-							{ skill: skills.universal.medicalKit, level: 3 }
-						],
-						equipment: [
-							items.weapon.rams
-						]
+						equipment: []
 					}
 				}
 			},
@@ -227,28 +119,14 @@ function Qualifications(skills, items) {
 					passPercentage: 100
 				},
 				classes: {
-					'Loadout: Anti-Infantry': {
+					'Indispensable': {
 						certifications: [
-							{ skill: skills.heavyAssault.grenadeBandolier, level: 2 },
-							{ skill: skills.heavyAssault.flakArmor, level: 4 },
-							{ skill: skills.heavyAssault.resistShield, level: 1 },
 							{ skill: skills.heavyAssault.concussionGrenade, level: 1 },
-							{ skill: skills.universal.medicalKit, level: 3 }
 						],
 						equipment: [
-							items.weapon.decimator
-						]
-					},
-					'Loadout: Anti-Armor': {
-						certifications: [
-							{ skill: skills.heavyAssault.flakArmor, level: 4 },
-							{ skill: skills.heavyAssault.resistShield, level: 1 },
-							{ skill: skills.heavyAssault.c4, level: 1 },
-							{ skill: skills.heavyAssault.antiVehicleGrenade, level: 1 }
-						],
-						equipment: [
-							items.weapon.skep,
-							items.weapon.grounder
+							items.weapon.lancer,
+							items.weapon.nemesis,
+							items.weapon.lasher
 						]
 					}
 				}
@@ -258,59 +136,17 @@ function Qualifications(skills, items) {
 					passPercentage: 100
 				},
 				classes: {
-					'Loadout: Anti-Infantry': {
+					'Indispensable': {
 						certifications: [
-							{ skill: skills.max.kineticArmor, level: 5 },
-							{ skill: skills.max.lockdown, level: 2 }
-						],
-						equipment: [
-							items.max.leftMercy,
-							items.max.rightMercy
-						]
-					},
-					'Loadout: Anti-Armor': {
-						certifications: [
-							{ skill: skills.max.flakArmor, level: 5 },
-							{ skill: skills.max.kineticArmor, level: 5 },
-							{ skill: skills.max.lockdown, level: 2 }
-						],
-						equipment: [
-							items.max.leftPounder,
-							items.max.rightPounder
-						]
-					},
-					'Loadout: Anti-Air': {
-						certifications: [
-							{ skill: skills.max.flakArmor, level: 5 },
-							{ skill: skills.max.lockdown, level: 2 }
+							{ skill: skills.max.flakArmor, level: 4 },
+							{ skill: skills.max.charge, level: 2 }
 						],
 						equipment: [
 							items.max.leftBurster,
-							items.max.rightBurster
+							items.max.leftComet,
+							items.max.rightBlueshift
 						]
-					}
-				}
-			},
-			'basicTanks': {
-				meta: {
-					passPercentage: 100
-				},
-				classes: {
-					'Prowler': {
-						certifications: [
-							{ skill: skills.prowler.anchoredMode, level: 1 }
-						],
-						equipment: [
-							items.prowler.walker
-						]
-					},
-					'Sunderer': {
-						certifications: [
-							{ skill: skills.sunderer.vehicleAmmoDispenser, level: 1 },
-							{ skill: skills.sunderer.gateShieldDiffuser, level: 2 }
-						],
-						equipment: []
-					}
+					}			
 				}
 			},
 			'sunderer': {
@@ -318,30 +154,38 @@ function Qualifications(skills, items) {
 					passPercentage: 100
 				},
 				classes: {
-					'Sunderer': {
+					'Indispensable': {
 						certifications: [
-							{ skill: skills.sunderer.mineGuard, level: 4 },
-							{ skill: skills.sunderer.blockadeArmor, level: 4 },
-							{ skill: skills.sunderer.gateShieldDiffuser, level: 3 },
-							{ skill: skills.sunderer.naniteProximityRepairSystem, level: 6 }
+						{ skill: skills.sunderer.gateShieldDiffuser, level: 1},
+						{ skill: skills.sunderer.fireSuppression, level: 3 },
+						{ skill: skills.sunderer.blockadeArmor, level: 3 },
+						{ skill: skills.sunderer.mineGuard, level: 4 },
+						{ skill: skills.sunderer.naniteProximityRepairSystem, level: 6 },
+						{ skill: skills.sunderer.vehicleAmmoDispenser, level: 1 },
+						{ skill: skills.sunderer.deploymentShield, level: 1 }
 						],
 						equipment: []
 					}
 				}
 			},
-			'prowler': {
+			'magrider': {
 				meta: {
 					passPercentage: 100
 				},
 				classes: {
-					'Prowler': {
+					'Indispensable': {
 						certifications: [
-							{ skill: skills.prowler.anchoredMode, level: 4 },
-							{ skill: skills.prowler.mineGuard, level: 4 }
+							{ skill: skills.magrider.magBurner, level: 3 },
+							{ skill: skills.magrider.racerHighSpeedChassis, level: 3 }
 						],
 						equipment: [
-							items.prowler.p2120ap,
-							items.prowler.halberd
+						items.magrider.supernovaFpc,
+						items.magrider.supernovaVpc,
+						items.magrider.proton,
+						items.magrider.saron,
+						items.magrider.halberd,
+						items.magrider.g30
+						
 						]
 					}
 				}
@@ -351,7 +195,7 @@ function Qualifications(skills, items) {
 					passPercentage: 100
 				},
 				classes: {
-					'Lightning': {
+					'Indispensable': {
 						certifications: [
 							{ skill: skills.lightning.reinforcedTopArmor, level: 1 }
 						],
@@ -361,12 +205,25 @@ function Qualifications(skills, items) {
 					}
 				}
 			},
+			'flash': {
+				meta: {
+					passPercentage: 100
+				},
+				classes: {
+					'Indispensable': {
+						certifications: [
+							{ skill: skills.flash.radar, level: 4 }
+						],
+						equipment: []
+					}
+				}
+			},
 			'harasser': {
 				meta: {
 					passPercentage: 100
 				},
 				classes: {
-					'Harasser': {
+					'Indispensable': {
 						certifications: [
 							{ skill: skills.harasser.fireSuppressionSystem, level: 4 },
 							{ skill: skills.harasser.compositeArmor, level: 4 },
@@ -396,29 +253,108 @@ function Qualifications(skills, items) {
 						equipment: []
 					}
 				}
-			}
-		},
-		echoHavoc = qual('Echo Havoc', null, null, true),
-		max = qual('MAX', echoHavoc, requirements.maxUnit),
-		heavyAssault = qual('Heavy Assault', max, requirements.heavyAssault),
-		echoCovertOps = qual('Echo Covert Ops', null, null, true),
-		infiltrator = qual('Infiltrator', echoCovertOps, requirements.infiltrator),
-		lightAssault = qual('Light Assault', infiltrator, requirements.lightAssault),
-		echoSpecialist = qual('Echo Specialist', null, null, true),
-		engineer = qual('Engineer', echoSpecialist, requirements.engineer),
-		combatMedic = qual('Combat Medic', engineer, requirements.medic),
+			},				
+			
+
+			'scythe':{				
+				meta:{					
+					passPercentage: 100				
+				},				
+						classes:{
+						'Indispensable':	{
+									certifications: [
+									{ skill: skills.scythe.fireSuppression, level: 1 },
+									{ skill: skills.scythe.nanite, level: 4 },
+									{ skill: skills.scythe.decoyFlares, level: 2 }
+									],						
+									equipment: [
+									items.scythe.ppa,
+									items.scythe.photona2a,
+									items.scythe.dualphoton,
+									items.scythe.dualphotonAttachments.thermal
+									]					
+						}	
+					}			
+			},						
+				
+			
+			
+			'liberator':{				
+				meta:{					
+					passPercentage: 100				
+				},				
+						classes:{
+						'Indispensable':	{
+									certifications: [
+									{ skill: skills.liberator.lf100Afterburner, level: 1 },
+									{ skill: skills.liberator.naniteAutoRepair, level: 5 },
+									{ skill: skills.liberator.precisionBomberAirframe, level: 3 }
+									],						
+									equipment: [
+									items.liberator.tankbuster,
+									items.liberator.tankbusterAttachments.thermal,
+									items.liberator.dalton,
+									items.liberator.daltonAttachments.thermal,
+									items.liberator.shredder,
+									items.liberator.shredderAttachments.thermal,
+									items.liberator.bulldog,
+									items.liberator.bulldogAttachments.thermal,
+									items.liberator.zepher,
+									items.liberator.zepherAttachments.thermal
+		
+									]					
+									}									
+						}
+			},	
+
+			'galaxy':{				
+				meta:{					
+					passPercentage: 100				
+				},				
+						classes:{
+						'Indispensable':	{
+									certifications: [
+									{ skill: skills.galaxy.fireSuppression, level: 1 },
+									{ skill: skills.galaxy.nanite, level: 1 }
+									],						
+									equipment: [
+									items.galaxy.bullLeft,
+									items.galaxy.bullRight
+									]					
+									}	
+						}			
+			}	
+	},
+		serverSmash = qual('Server Smash', null, null, true),
+		echoEagle = qual('Falcon Ops', null, requirements.echoEagle, true),
+		echoRhino = qual('Buffalo Ops', null, requirements.echoRhino, true),		
+		echoHavoc = qual('Tiger Ops', null, requirements.echoHavoc, true),
+		max = qual('MAX', null, requirements.maxUnit),
+		heavyAssault = qual('Heavy Assault', null, requirements.heavyAssault),
+		echoCovertOps = qual('Snake Ops', null, requirements.echoCovertOps, true),
+		infiltrator = qual('Infiltrator', null, requirements.infiltrator),
+		lightAssault = qual('Light Assault', null, requirements.lightAssault),
+		echoSpecialist = qual('Zebra Ops', null, requirements.echoSpecialist, true),
+		engineer = qual('Engineer', null, requirements.engineer),
+		combatMedic = qual('Combat Medic', null, requirements.medic),
 		commander = qual('Commander', null, requirements.commander, true),
-		sunderer = qual('Sunderer', [ echoSpecialist, echoCovertOps, echoHavoc ], requirements.sunderer),
+		sunderer = qual('Sunderer', null, requirements.sunderer),
+		flash = qual('Flash', null, requirements.flash),
 		harasser = qual('Harasser', null, requirements.harasser),
-		lightning = qual('Lightning', harasser, requirements.lightning),
-		prowler = qual('Prowler', lightning, requirements.prowler),
-		basicTanks = qual('Basic Tanks', [ sunderer, prowler ], requirements.basicTanks),
-		veteran = qual('Veteran', [ combatMedic, lightAssault, heavyAssault, commander ], requirements.veteran, true),
-		soldier = qual('Soldier', [ veteran, basicTanks ], requirements.soldier, true);
+		lightning = qual('Lightning', null, requirements.lightning),
+		magrider = qual('Magrider', null, requirements.magrider),
+		galaxy = qual('Galaxy', null, requirements.galaxy),
+		valkyrie = qual('Valkyrie', null, requirements.valkyrie),
+		liberator = qual('Liberator', null, requirements.liberator),
+		scythe = qual('Scythe', null, requirements.scythe),
+		rhino = qual('Rhino Ops', [ sunderer, magrider, lightning, harasser, flash ], requirements.rhino),
+		eagle = qual('Eagle Ops', [scythe,liberator,galaxy,valkyrie], requirements.eagle),
+		veteran = qual('Wolf Ops', [ combatMedic, lightAssault, heavyAssault, commander, engineer, infiltrator, max ], requirements.veteran),
+		membre = qual('Member', [veteran,eagle,rhino], requirements.membre, true);
 
-	addParentRelationships(soldier);
+	addParentRelationships(membre);
 
-	return soldier;
+	return membre;
 
 	function qual(name, child, certs, isRank) {
 		var obj = {};
@@ -454,3 +390,4 @@ function Qualifications(skills, items) {
 		}
 	}
 }
+	

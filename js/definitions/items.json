@@ -1,6 +1,7 @@
 {
 	"engineer": {
-		"avManaTurret": 71564,
+		"avManaTurret": 71565,
+		"aiManaTurret": 202,
 		"flakArmor": [
 			8121,
 			8122,
@@ -62,12 +63,12 @@
 		]
 	},
 	"max": {
-		"leftMercy": 7518,
-		"rightMercy": 15030,
-		"leftPounder": 15001,
-		"rightPounder": 15013,
-		"leftBurster": 15004,
-		"rightBurster": 15016,
+		"leftComet": 17013,
+		"rightComet": 17001,
+		"leftBlueshift": 7525,
+		"rightBlueshift": 17030,
+		"leftBurster": 17016,
+		"rightBurster": 17004,
 		"leftFracture": 16030,
 		"rightFracture": 16031
 	},
@@ -81,7 +82,7 @@
 		"empGrenade": 50051
 	},
 	"lightning": {
-		"skyguard": 3108,
+		"skyguard": 3106,
 		"fireSuppression": [
 			3113,
 			3114,
@@ -102,6 +103,27 @@
 		"ranger": 4010,
 		"halberd": 4015,
 		"vulcan": 4029,
+		"anchoredMode": [
+			4030,
+			4031,
+			4032,
+			4033
+		],
+		"mineGuard": [
+			4050,
+			4051,
+			4052,
+			4053
+		]
+	},
+	"magrider": {
+		"saron": 4302,
+		"supernovaFpc": 3460,
+		"supernovaPc": 3400,
+		"supernovaVpc": 3461,
+		"halberd": 3441,
+		"proton": 3404,
+		"g30": 3403,
 		"anchoredMode": [
 			4030,
 			4031,
@@ -147,13 +169,58 @@
 		]
 	},
 	"harasser": {
-		"halberd": 6120
+		"halberd": 6118
 	},
 	"mosquito": {
 		"hellfireRocketPods": 4903,
 		"m18rotary": 4911
 	},
+	"galaxy": {
+		"bullLeft": 5514,
+		"bullRight": 5515
+	},
+	"liberator": {
+		"tankbuster": 5215,
+		"tankbusterAttachments": {
+			"ammocapaciter":13429,
+			"zoomopticx2":5355,
+			"nightvision":13051,
+			"thermal":14537
+			},
+		"dalton": 5224,
+		"daltonAttachments": {
+			"thermal":14533
+			},
+		"shredder": 5211,
+		"shredderAttachments": {
+			"thermal":14536
+			},
+		"bulldog": 5221,
+		"bulldogAttachments": {
+			"thermal":14540
+			},
+		"zepher": 5227,
+		"zepherAttachments": {
+			"thermal":14532
+			}
+	},
 	"weapon": {
+		"lasher": 7540,
+		"lancer": 35002,
+		"nemesis": 35004,
+		"thanatos": 7441,
+		"sirius": 29001,
+		"parallax": 26004,
+		"hades": 35003,
+		"solsticesf": 7213,
+		"solsticesfAttachments": {
+			"smoke":9561
+		},
+		"hunter": 2308,
+		"hunterAttachments": {
+			"explosiveBolt":1709,
+			"detectBolt":1710
+		},
 		"trac5s": 7192,
 		"trac5sAttachments": {
 			"grenadeLauncher": 9322,
@@ -172,6 +239,27 @@
 		"t2": 34002,
 		"decimator": 50560,
 		"skep": 34003,
+		"hv45": 7148,
 		"grounder": 34004
+	},
+	"scythe": { 
+		"ppa": 4305,
+		"saron": 4302,
+		"saron2aAttachments": {
+			"ammo": 13302,
+			"magazine": 13540
+		},
+		"photona2a": 4300,
+		"photona2aAttachments": {
+			"ammo": 13300,
+			"lock": 13827
+		},
+		"dualphoton": 4301,
+		"dualphotonAttachments": {
+			"night": 13039,
+			"thermal": 14573,
+			"ammo": 13336,
+			"reload": 13743
+		}
 	}
 }

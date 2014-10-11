@@ -19,7 +19,7 @@
 }
 
 body {
-	background: #000 url(../img/background.jpg) no-repeat top center;
+ background: #000 url("http://www.planetside.fr/forums/style/planetside/bg1.jpg") top center no-repeat;
 	color: #fff;
 	font-family: 'Open Sans',arial,helvetica,sans-serif;
 	font-size: 12px;
@@ -27,7 +27,7 @@ body {
 	text-shadow: 1px 1px #000;
 }
 .reportOpen {
-	height: 1425px;
+	height: 1000px;
 }
 
 h1 {

@@ -1,7 +1,7 @@
 /* Member Tree Styles */
 #member-tree {
 	position: relative;
-	height: 915px;
+	height: 950px;
 }
 #member-tree > div {
 	position: absolute;
@@ -10,14 +10,52 @@
 	width: 150px;
 	height: 120px;
 	left: 50%;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
 	line-height: 120px;
 	transition: all 0.5s ease 0s;
 	box-shadow: 0 0 10px #000;
 }
+#codex-wolf {
+	position: absolute;
+	border-radius: 16px;
+	border: 1px solid #197576;
+	width: 150px;
+	height: 200px;
+	top: 240px;
+	margin-left: 350px;
+	padding:10px;
+	left: 50%;
+	font-size: 14px;
+	line-height: 30px;
+	transition: all 0.5s ease 0s;
+	box-shadow: 0 0 10px #000;
+	z-index: 100000;
+	background: linear-gradient(to bottom, rgba(9, 47, 49, 0.5) 0%, rgba(2, 7, 10, 0.5) 100%);
+}
+#explain {
+	position: absolute;
+	border-radius: 16px;
+	border: 1px solid #197576;
+	width: 800px;
+	height: 200px;
+	top: 240px;
+	margin-left: -500px;
+	padding:10px;
+	left: 50%;
+	font-size: 12px;
+	line-height: 20px;
+	transition: all 0.5s ease 0s;
+	box-shadow: 0 0 10px #000;
+	z-index: 100000;
+	background: linear-gradient(to bottom, rgba(9, 47, 49, 0.5) 0%, rgba(2, 7, 10, 0.5) 100%);
+}
+#formation-tree div:hover {
+	font-size: 16px;
+	transition: all 0.5s ease 0s;
+}
 #member-tree > div:hover {
-	font-size: 18px;
+	font-size: 16px;
 	transition: all 0.5s ease 0s;
 }
 #member-tree > div:before,
@@ -71,184 +109,108 @@
 }
 
 /* Rank Box Position Styles */
-#soldier {
+#member {
+	top: 50px;
 	margin-left: -76px;
 }
-#veteran {
-	top: 150px;
+#wolf-ops {
+	top: 200px;
 	margin-left: -76px;
 }
-#basic-tanks {
-	top: 150px;
+#eagle-ops {	
+top: 200px;	
+margin-left: -600px;
+}
+#scythe {	
+top: 350px;	
+margin-left: -600px;
+}
+#liberator {	
+top: 500px;	
+margin-left: -600px;
+}
+#galaxy {	
+top: 650px;	
+margin-left: -600px;
+}
+#valkyrie {	
+top: 800px;	
+margin-left: -600px;
+}
+#rhino-ops {
+	top: 200px;
 	margin-left: 450px;
 }
 #sunderer {
-	top: 600px;
+	top: 650px;
 	margin-left: 275px;
 }
-#prowler {
+#magrider {
 	margin-left: 450px;
-	top: 300px;
+	top: 350px;
 }
 #lightning {
 	margin-left: 450px;
-	top: 450px;
+	top: 500px;
 }
 #harasser {
 	margin-left: 450px;
-	top: 600px;
+	top: 650px;
+}
+#flash {
+	margin-left: 450px;
+	top: 800px;
 }
 #commander {
-	top: 300px;
-	margin-left: -601px;
+	top: 350px;
+	margin-left: -425px;
 }
 #combat-medic {
-	top: 300px;
+	top: 350px;
 	margin-left: -250px;
 }
 #light-assault {
-	top: 300px;
+	top: 350px;
 	margin-left: -75px;
 }
 #heavy-assault {
-	top: 300px;
+	top: 350px;
 	margin-left: 100px;
 }
 #engineer {
-	top: 450px;
+	top: 500px;
 	margin-left: -250px;
 }
 #infiltrator {
-	top: 450px;
+	top: 500px;
 	margin-left: -75px;
 }
 #max {
-	top: 450px;
+	top: 500px;
 	margin-left: 100px;
 }
-#echo-specialist {
-	top: 750px;
+#zebra-ops {
+	top: 1100px;
 	margin-left: -251px;
 }
-#echo-covert-ops {
-	top: 750px;
+#snake-ops {
+	top: 1100px;
 	margin-left: -76px;
 }
-#echo-havoc {
-	top: 750px;
+#tiger-ops {
+	top: 1100px;
 	margin-left: 99px;
 }
-#echo-commander {
-	top: 750px;
-	margin-left: -427px;
+#falcon-ops {
+	top: 1250px;
+	margin-left: -600px;
 }
-#echo-elite {
-	top: 750px;
+#buffalo-ops {
+	top: 1250px;
+	margin-left: 450px;
+}
+#server-smash {
+	top: 1275px;
 	margin-left: -76px;
 }
-
 /* Rank Box Connection Styles */
-#basic-tanks:before {
-	border-right: 13px solid #789;
-	border-top: 13px solid #789;
-	border-top-right-radius: 26px;
-	bottom: 121px;
-	height: 81px;
-	right: 69px;
-	width: 441px;
-}
-#commander:before {
-	border-left: 13px solid #789;
-	border-top: 13px solid #789;
-	border-top-left-radius: 26px;
-	bottom: 122px;
-	height: 91px;
-	left: 69px;
-	width: 441px;
-}
-#combat-medic:before {
-	border-left: 13px solid #789;
-	border-top: 13px solid #789;
-	border-top-left-radius: 26px;
-	bottom: 121px;
-	height: 71px;
-	left: 69px;
-	width: 91px;
-}
-#combat-medic:after,
-#light-assault:after,
-#heavy-assault:after,
-#basic-tanks:after,
-#prowler:after,
-#lightning:after {
-	border-left: 13px solid #789;
-	height: 28px;
-	left: 68px;
-	top: 121px;
-	width: 0;
-}
-
-#engineer:after,
-#infiltrator:after,
-#max:after {
-	border-left: 13px solid #789;
-	height: 178px;
-	left: 58px;
-	top: 121px;
-	width: 0;
-	box-shadow: 0 0 5px #197576;
-}
-#heavy-assault:before {
-	border-right: 13px solid #789;
-	border-top: 13px solid #789;
-	border-top-right-radius: 26px;
-	bottom: 121px;
-	height: 81px;
-	right: 69px;
-	width: 91px;
-}
-#echo-specialist:before {
-	border-left: 13px solid #789;
-	border-top: 13px solid #789;
-	border-top-left-radius: 26px;
-	bottom: 122px;
-	height: 101px;
-	left: 78px;
-	width: 433px;
-}
-#sunderer:before {
-	border-left: 13px solid #789;
-	border-top: 13px solid #789;
-	border-top-left-radius: 26px;
-	bottom: 121px;
-	height: 380px;
-	left: 69px;
-	width: 92px;
-}
-#soldier:after,
-#veteran:after {
-	border-left: 13px solid #789;
-	height: 26px;
-	left: 69px;
-	top: 122px;
-	width: 93px;
-}
-
-#echo-covert-ops:before {
-	border-left: 13px solid #789;
-	border-top: 13px solid #789;
-	border-top-left-radius: 26px;
-	bottom: 122px;
-	height: 83px;
-	left: 78px;
-	width: 258px;
-}
-#echo-havoc:before {
-	border-left: 13px solid #789;
-	border-top: 13px solid #789;
-	border-top-left-radius: 26px;
-	bottom: 122px;
-	height: 65px;
-	left: 78px;
-	width: 83px;
-}
