@@ -122,8 +122,18 @@ function MemberReportBuilder(element, skills, items) {
 				// check equipment requirements
 				$.each(requirements.equipment, function(idx, val) {
 					certCount.total++;
-					var ge = character.hasEquipment(val),
+					var ge = false;
+					var itemName = 'undefined';
+					if(typeof val == 'number'){
+						ge = character.hasEquipment(val);
 						itemName = itemDatabase.getItem(val);
+					}else if(typeof val == 'object'){
+						$.each(val, function(idx, equivalentItem) {
+							ge = character.hasEquipment(equivalentItem);
+							itemName = itemDatabase.getItem(equivalentItem);
+							return (!ge);
+						});
+					}
 					if (ge) {
 						classTip.append('<span>' + itemName + '</span>');
 						certCount.pass++;
