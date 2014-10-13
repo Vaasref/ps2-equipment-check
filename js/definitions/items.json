@@ -217,20 +217,21 @@
 			"smoke":9561
 		},
 		"hunter": {
+			"blackheart": 2310,
 			"heartstring": 2309,
 			"qcx": 2308
 		},
 		"hunterAttachments": {
 			"explosiveBolt": {
-				1709,
-				1721,
-				1733
+				"blackheart": 1733,
+				"heartstring": 1721,
+				"qcx": 1709
 			},
 			"detectBolt": {
-				1710,
-				1722,
-				1734
-			},
+				"blackheart": 1734,
+				"heartstring": 1722,
+				"qcx": 1710
+			}
 		},
 		"trac5s": 7192,
 		"trac5sAttachments": {
