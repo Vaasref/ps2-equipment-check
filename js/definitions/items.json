@@ -216,10 +216,21 @@
 		"solsticesfAttachments": {
 			"smoke":9561
 		},
-		"hunter": 2308,
+		"hunter": {
+			"heartstring": 2309,
+			"qcx": 2308
+		},
 		"hunterAttachments": {
-			"explosiveBolt":1709,
-			"detectBolt":1710
+			"explosiveBolt": {
+				1709,
+				1721,
+				1733
+			},
+			"detectBolt": {
+				1710,
+				1722,
+				1734
+			},
 		},
 		"trac5s": 7192,
 		"trac5sAttachments": {
